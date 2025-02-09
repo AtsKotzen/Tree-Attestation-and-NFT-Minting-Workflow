@@ -9,6 +9,9 @@ This documentation outlines a Node.js workflow designed to create on-chain attes
 
 This workflow is broken down into modular Javascript files for better organization and maintainability. Each file is responsible for a specific part of the process:
 
+**ResearchNFT contract address:** 0x73fee0357b54A98f1b0F2804f7D3d255fAc43E69
+**NFTree contract address:** 0x5Ed6240fCC0B2A231887024321Cc9481ba07f3c6
+
 *   **`index.js`**:  The main entry point of the workflow. It orchestrates the entire process, calling functions from other modules sequentially.
 *   **`createAttestation.js`**: Handles the creation of an on-chain attestation using the EAS SDK.
 *   **`uploadToIPFS.js`**:  Manages the uploading of files to IPFS using the Pinata API.
